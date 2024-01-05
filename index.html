@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+   
+
+  
+<!-- El núcleo JS SDK de Firebase siempre es requerido y debe ser enlistado primero -->
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+<!-- TODO: Agregar SDKs para los productos Firebase que quieras usar
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+// Configuración de Firebase de tu aplicación web
+  const firebaseConfig = {
+  apiKey: "AIzaSyB3nWVUC7qSRYe-7ko3mQBav-pORdZXpCA",
+  authDomain: "carrera-dd55f.firebaseapp.com",
+  databaseURL: "https://carrera-dd55f-default-rtdb.firebaseio.com",
+  projectId: "carrera-dd55f",
+  storageBucket: "carrera-dd55f.appspot.com",
+  messagingSenderId: "827241774196",
+  appId: "1:827241774196:web:fd5a5dcd06716f5f77e521",
+  measurementId: "G-C3ERH97QYZ"
+};
+// Inicializar Firebase
+firebase.initializeApp(firebaseConfig);
+</script>    
+  
+  
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+</body></html>
